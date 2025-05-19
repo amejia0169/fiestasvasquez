@@ -1,0 +1,31 @@
+.btn{
+    background-color: orange;
+    padding: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    transition: background-color .5s;
+}
+.btn:hover{
+    background-color: red;
+}
+.contenedor{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    transition: width .5s, height .5s;
+}
+.contenedor:hover{
+    width: 200px;
+    height: 200px;
+}
+.imagen{
+    opacity: .5;
+    width: 400px;
+    transform: scale(1);
+    transition: opacity .5, transform .5s;
+}
+.imagen:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}

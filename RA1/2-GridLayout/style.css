@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.container-grid{
+    display: grid; /*Activamos CSS Grid*/
+    grid-template-columns: repeat(3, 1fr); /* Establecemos 3 columnas de igual tamaño*/
+    grid-template-rows: repeat(2, 200px); /* Establecemos 2 filas de 200px de alto*/
+    gap: 10px; /*El estpacio entre filas y columnas*/
+    height: 100vh;
+    background-color: rgb(150, 248, 255);
+}
+
+.item-grid{
+    background-color: rgb(77,159,253);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
